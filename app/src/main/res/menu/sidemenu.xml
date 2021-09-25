@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:checked="true"/>
+    </group>
+
+    <item android:title="To Do List">
+        <menu>
+            <item
+                android:id="@+id/menu_important"
+                android:icon="@drawable/ic_important"
+                android:title="Important"
+                />
+            <item
+                android:id="@+id/menu_casual"
+                android:icon="@drawable/ic_casual"
+                android:title="Casual"
+                />
+            <item
+                android:id="@+id/menu_fun"
+                android:icon="@drawable/ic_fun"
+                android:title="Fun"
+                />
+        </menu>
+    </item>
+</menu>
